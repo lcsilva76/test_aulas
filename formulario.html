@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h1>formulários HTML</h1>
+
+      <form id="cadastro" action="resultado.jsp" method="get">
+        <fieldset>
+          <legend>Cadastro de Visitante</legend>
+          <label for="cNome">Nome:</label>
+          <input id="cNome" type="url" name="nome"><br>
+          <label for="cEmail">Email:</label>
+          <input id="cEmail" type="week" name="email" autofocus><br>
+          <legend>Tamanho de Manequim</legend>
+          <input type="radio" id="cPeq" name="tamanho" value="P">
+          <label for="cPeq">Pequeno</label>
+          <input type="radio" id="cMed" name="tamanho" value="M">
+          <label for="cMed">Médio</label>
+          <input type="radio" id="cGrd" name="tamanho" value="G">
+          <label for="cGrd">Grande</label>
+          <br>
+          <legend>Cores Preferidas</legend>
+          <input id="vermelho" type="checkbox" name="Azul">
+          <label for="vermelho">Cor Vermelha</label>
+          <input id="Azul" type="checkbox" name="Vermelho">
+          <label for="Azul">Cor Azul</label>
+          <br>
+          <select name="pagamento">
+
+            <option value="cc">Cartão Crédito</option>
+            <option value="cd">Cartão Débito</option>
+            <option value="bl">Boleto Bancário</option>
+          </select>
+          <br>
+          <input type="submit" value="Enviar">
+        </fieldset>
+      </form>
+
+  </body>
+</html>
